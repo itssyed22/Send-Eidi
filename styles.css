@@ -1,94 +1,67 @@
 
-h1.container{
-    
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c1faf3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1.container {
+
     text-align: center;
     font-size: 8em;
-    background-color:bisque;
-    border-radius: 4px;       
+    margin-top: 2em;
+    background-color: rgb(55, 115, 158);
+    width: 100%;
 }
 
-h1.username{
-    font-size: 6em;
+h1.username {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1em;
 }
-input.name{
-    font-size: 0.75em;
+
+input.name {
+    font-size: 1em;
     text-align: center;
     padding: 8px;
-    box-shadow: 2px 2px 14px black;
-}
-img{
-    margin: 10em;
-    margin-bottom: 0;
-}
-input::placeholder {
-    font-size: 38px; 
-}
-input.inp-1{
-    margin-left: 3em;
-    margin-top: 1em;
-    font-size: 4em;
-    border-radius: 6px;
-    text-align: center;
-    width: 400px;
-    height: 100px;
-    box-shadow: 2px 2px 14px black;
+    width: 12em;
+    box-sizing: border-box;
+    margin-bottom: 1em;
 }
 
-input.inp-2{
-    margin-left: 6em;
-    font-size: 4em;
-    border-radius: 6px;
-    text-align: center;
-    width: 400px;
-    height: 100px;
-    box-shadow: 2px 2px 14px black;
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
 }
 
-input.inp-3{
-    margin-left: 6em;
-    font-size: 4em;
+img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 1em;
+}
+
+input[type="number"] {
+    flex: 1;
+    font-size: 3em;
+    padding: 8px;
+    box-shadow: 2px 2px 14px black;
     border-radius: 6px;
     text-align: center;
-    width: 400px;
-    height: 100px;
-    box-shadow: 2px 2px 14px black;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
 }
-input.inp-4{
-    margin-left: 6.5em;
-    font-size: 4em;
-    border-radius: 6px;
-    text-align: center;
-    width: 400px;
-    height: 100px;
-    box-shadow: 2px 2px 14px black;
-}
-input.inp-5{
-    margin-left: 7em;
-    font-size: 4em;
-    border-radius:6px;
-    text-align: center;
-    width: 400px;
-    height: 100px;
-    box-shadow: 2px 2px 14px black;
-}
-input.inp-6{
-    margin-left: 7.5em;
-    font-size: 4em;
-    border-radius: 6px;
-    text-align: center;
-    width: 400px;
-    height: 100px;
-    box-shadow: 2px 2px 14px black;
-}
-input.inp-7{
-    margin-left: 8em;
-    font-size: 4em;
-    border-radius: 6px;
-    text-align: center;
-    width: 400px;
-    height: 100px;
-    box-shadow: 2px 2px 14px black;
-}
+
 button {
     padding: 8px 20px;
     background-color: rgb(233, 183, 120);
@@ -96,19 +69,17 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: block;
     margin: 20px auto 0;
-    display: block; 
-    font-size: 6em;
-    text-align: center;
-    margin-top: 2em;
-}
-
-
-button:hover {
-    background-color:rgb(241, 169, 81);
-}
-h2{
-    text-align: center;
     font-size: 4em;
 }
- 
+
+button:hover {
+    background-color: rgb(241, 169, 81);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+}
