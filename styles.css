@@ -1,0 +1,114 @@
+
+h1.container{
+    
+    text-align: center;
+    font-size: 8em;
+    background-color:bisque;
+    border-radius: 4px;       
+}
+
+h1.username{
+    font-size: 6em;
+}
+input.name{
+    font-size: 0.75em;
+    text-align: center;
+    padding: 8px;
+    box-shadow: 2px 2px 14px black;
+}
+img{
+    margin: 10em;
+    margin-bottom: 0;
+}
+input::placeholder {
+    font-size: 38px; 
+}
+input.inp-1{
+    margin-left: 3em;
+    margin-top: 1em;
+    font-size: 4em;
+    border-radius: 6px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    box-shadow: 2px 2px 14px black;
+}
+
+input.inp-2{
+    margin-left: 6em;
+    font-size: 4em;
+    border-radius: 6px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    box-shadow: 2px 2px 14px black;
+}
+
+input.inp-3{
+    margin-left: 6em;
+    font-size: 4em;
+    border-radius: 6px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    box-shadow: 2px 2px 14px black;
+}
+input.inp-4{
+    margin-left: 6.5em;
+    font-size: 4em;
+    border-radius: 6px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    box-shadow: 2px 2px 14px black;
+}
+input.inp-5{
+    margin-left: 7em;
+    font-size: 4em;
+    border-radius:6px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    box-shadow: 2px 2px 14px black;
+}
+input.inp-6{
+    margin-left: 7.5em;
+    font-size: 4em;
+    border-radius: 6px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    box-shadow: 2px 2px 14px black;
+}
+input.inp-7{
+    margin-left: 8em;
+    font-size: 4em;
+    border-radius: 6px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    box-shadow: 2px 2px 14px black;
+}
+button {
+    padding: 8px 20px;
+    background-color: rgb(233, 183, 120);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    display: block; 
+    font-size: 6em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+button:hover {
+    background-color:rgb(241, 169, 81);
+}
+h2{
+    text-align: center;
+    font-size: 4em;
+}
+ 
